@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>First Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  </head>
+
+
+
+  <body>
+    <header>
+  <div class="T-tex">
+    <h1>"A Tragedy in the Skies"</h1>
+  <h3>The Martinair Flight 138 Crash</h3>
+  </div>
+     </header>
+
+    <section class="hero">
+      <h2>Heading</h2>
+    </section>
+
+    <section class="intro">
+      <div>
+        <p>
+         Text
+        </p>
+      </div>
+    </section>
+
+    <section class="vid">
+      <div class="holder">
+        <video src="vid.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <section class="savvy">
+      <h3>Heading-2</h3>
+    </section>
+
+    <main>
+      <!-- Sticky Image Container -->
+      <div class="image-container">
+        <img id="dynamicImage" src="1.jpg" alt="Dynamic Image">
+      </div>
+    
+      <!-- Scrolling Text Container -->
+      <div class="text-container">
+        <div class="text" data-image="1.jpg">Mountain 1: The majestic peak!</div>
+        <div class="text" data-image="2.jpg">Mountain 2: Rising above the clouds!</div>
+        <div class="text" data-image="3.jpg">Mountain 3: Nature's beauty at its best!</div>
+        <div class="text" data-image="4.jpg">Mountain 4: A serene escape!</div>
+        <div class="text" data-image="5.jpg">Mountain 5: A hiker's dream!</div>
+        <div class="text" data-image="6.jpg">Mountain 6: Standing tall through time!</div>
+        <div class="text" data-image="7.jpg">Mountain 7: The crown of the earth!</div>
+        <div class="text" data-image="8.jpg">Mountain 8: The crown of the earth!</div>
+        <div class="text" data-image="9.jpg">Mountain 9: The crown of the earth!</div>
+        <div class="text" data-image="10.jpg">Mountain 10: The crown of the earth!</div>
+      </div>
+    </main>
+
+
+    
+
+  
+
+<!-- GSAP and ScrollTrigger -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script src="scrubbing.js"></script>
+
+
+
+</body>
+</html>
